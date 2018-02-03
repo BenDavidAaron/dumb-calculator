@@ -1,10 +1,15 @@
-# bad-calculator
-A webapp simulating a two function calculator, powered by Scikit Learn
+# dumb-calculator
+A webapp simulating a two function calculator, powered by Keras.
 
-*Why preform a simple task in a simple way, when you can preform a simple task in a _complex_ way?*
+*Why preform a simple task in a simple way, when you can preform a simple task in a __really complex__ way?*
 
-Machine Learning has been applied to a range of complex and pressing problems: [identifying cancer tumors](https://www.ibm.com/blogs/research/2016/11/identifying-skin-cancer-computer-vision/) and [classifiying particle collsions](https://www.nature.com/news/artificial-intelligence-called-in-to-tackle-lhc-data-deluge-1.18922). However, has anybody ever applied these statistical methods to the addition of two single digit integers? Today, [we step into the bold unknown](https://bad-calculator.herokuapp.com/)!
+Machine Learning has been applied to a range of complex and pressing problems: 
+[identifying cancer tumors](https://www.ibm.com/blogs/research/2016/11/identifying-skin-cancer-computer-vision/) and [classifiying particle collsions](https://www.nature.com/news/artificial-intelligence-called-in-to-tackle-lhc-data-deluge-1.18922).
+However, has anybody ever applied these statistical methods to the addition of two single digit integers? 
+Today, [we step into the bold unknown](not-yet-buddy.com)!
 
 ### Motivations:
 
-I undertook this project to explore different types of linear models. Additionally, I wanted to complete a project, start-to-finish, within the span of one saturday afternoon. Hopefully this project will help someone demistify Machine Learning, or at least be good for a laugh. 
+I undertook this project to get some practice working with Keras. 
+I know this problem isn't really a good application of neural nets, but I think the best way to learn a complex technology is to do something simple with it.
+Hopefully, this will be worth a laugh, like my [other calculator](https://github.com/BenDavidAaron/bad-calculator) on which this one is based.
