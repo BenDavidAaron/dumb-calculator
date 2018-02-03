@@ -12,4 +12,4 @@ Today, [we step into the bold unknown](not-yet-buddy.com)!
 
 I undertook this project to get some practice working with Keras. 
 I know this problem isn't really a good application of neural nets, but I think the best way to learn a complex technology is to do something simple with it.
-Hopefully, this will be worth a laugh, like my [other calculator](https://github.com/BenDavidAaron/bad-calculator) on which this one is based.
+Hopefully, this will be worth a laugh, like my [other calculator](https://github.com/BenDavidAaron/bad-calculator), on which this one is based.
