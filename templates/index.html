@@ -1,10 +1,14 @@
 <!doctype html>
-<title>AI Powered Calculator!</title>
+<title>Neural Net Powered Calculator!</title>
 <link rel=stylesheet type=text/css href='{{ url_for('static', filename='style.css')}}'>
 <div class=page>
   <h1>bad-calculator</h1>
   <p>
-  	Welcome to my "bad" calculator, This calulator adds (unfortunately it does not subtract) two numbers using the user's choice of statistical model: <i>Least Squares Linear Regression</i> or <i>Stochastic Gradient Descent</i>. 
+  	Welcome to my "dumb" calculator, This calulator adds two numbers using both traditional arithmetic and using a basic feed-forward neural network. 
+  </p>
+  <img src="/static/model.png">
+  <p>
+    This calculator also tracks and displays the time required by the server to calculate the sum each way. Try it for yourself and see the differences are in accuracy and computational time. 
   </p>
   <form id='numbers' method="post">
     Pick two Numbers
@@ -39,6 +43,19 @@
   	<br>
     <img src="/static/dog.JPG" width="300" alt="Don't you just love software art?">
     <br>
-  	Machine Learning has been applied to a range of complex and pressing problems: <a href = https://www.ibm.com/blogs/research/2016/11/identifying-skin-cancer-computer-vision/>identifying cancer tumors</a> and <a href=https://www.nature.com/news/artificial-intelligence-called-in-to-tackle-lhc-data-deluge-1.18922>classifiying particle collsions</a>. However, has anybody previously applied these statistical methods to the addition of two integers? Today, <a href = https://github.com/BenDavidAaron/bad-calculator>we step into the bold unknown</a>!
+  	Machine Learning has been applied to a range of complex and pressing problems: 
   </p>
+    <ul>
+      <li>
+        <a href = https://www.ibm.com/blogs/research/2016/11/identifying-skin-cancer-computer-vision/>identifying cancer tumors</a>
+      </li>
+      <li>
+        <a href=https://www.nature.com/news/artificial-intelligence-called-in-to-tackle-lhc-data-deluge-1.18922>classifiying particle collsions</a>
+      </li>
+    </ul>
+    <p>
+      However, has anybody previously applied these statistical methods to the addition of two integers? 
+      Today, <a href = https://github.com/BenDavidAaron/dumb-calculator>we step into the bold unknown</a>!
+    </p>
+    <p>Lastly, if you enjoyed this calculator (<a href="https://github.com/BenDavidAaron/dumb-calculator">GitHub</a>), look at the original <a href="https://bad-calculator.herokuapp.com/">bad calculator</a> (<a href="https://github.com/BenDavidAaron/bad-calculator">GitHub</a>)</p>
 </div>
